@@ -3,7 +3,10 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  baseUrl: 'https://ajm5wp4c05.execute-api.ap-southeast-1.amazonaws.com/dev/api/',
+  jwtToken: 'jwtToken',
+  refreshToken: 'refreshToken'
 };
 
 /*
